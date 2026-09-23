@@ -12,8 +12,8 @@ public class division_algorithm{
         int v3 = b;
         int q = 0;
 
-        System.out.println("u1 | v1 | u2 | v2 | u3 | v3 | q");
-        System.out.println(u1 + " | " + v1 + " | " + u2 + " | " + v2 + " | " + u3 + " | " + v3 + " | " + q);
+        System.out.printf("%10s | %10s | %10s | %10s | %10s | %10s | %10s%n", "u1", "v1", "u2", "v2", "u3", "v3", "q");
+        System.out.printf("%10d | %10d | %10d | %10d | %10d | %10d | %10d%n", u1, v1, u2, v2, u3, v3, q);
         // interate till v3 = 0
         while (v3 != 0)
         {
@@ -41,7 +41,7 @@ public class division_algorithm{
             v3 = newV3;
 
             // print out each iteration 
-            System.out.println(u1 + " | " + v1 + " | " + u2 + " | " + v2 + " | " + u3 + " | " + v3 + " | " + q);
+            System.out.printf("%10d | %10d | %10d | %10d | %10d | %10d | %10d%n", u1, v1, u2, v2, u3, v3, q);
 
         }
 
